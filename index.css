@@ -1,0 +1,20 @@
+.input-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.input-wrapper input {
+  padding-left: 35px; /* create space for the icon */
+  height: 20px;
+  font-size: 16px;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  pointer-events: none; /* so the icon doesn't block input clicks */
+}
