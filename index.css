@@ -18,3 +18,7 @@
   height: 20px;
   pointer-events: none; /* so the icon doesn't block input clicks */
 }
+img {
+  image-rendering: auto;
+  /* or use: image-rendering: crisp-edges; for pixel art */
+}
