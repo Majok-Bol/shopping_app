@@ -2,7 +2,7 @@ const shoeProducts = [
   {
     category: "Running",
     description: "Lightweight running shoes with cushioned soles for maximum comfort.",
-    image: "https://unsplash.com/photos/photo-of-gray-and-orange-new-balance-encap-shoes-on-floor-fUEP0djb1hA",
+    image: "https://images.unsplash.com/photo-1552346154-21d32810aba3?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c25lYWtlcnN8ZW58MHx8MHx8fDA%3D",
     price: "$89.99",
     rating: "4.5/5",
     title: "Swift Run Pro"
@@ -10,7 +10,7 @@ const shoeProducts = [
   {
     category: "Casual",
     description: "Classic canvas sneakers with vulcanized rubber soles.",
-    image: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c25lYWtlcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&h=600&q=60",
+    image: "https://images.unsplash.com/photo-1579446650032-86effeeb3389?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNuZWFrZXJzfGVufDB8fDB8fHww",
     price: "$49.99",
     rating: "4.2/5",
     title: "Urban Walker"
@@ -18,7 +18,7 @@ const shoeProducts = [
   {
     category: "Basketball",
     description: "High-top performance shoes with ankle support and responsive cushioning.",
-    image: "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJhc2tldGJhbGwlMjBzaG9lc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&h=600&q=60",
+    image: "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fHNuZWFrZXJzfGVufDB8fDB8fHww",
     price: "$119.99",
     rating: "4.7/5",
     title: "Jump Master 3000"
@@ -26,7 +26,7 @@ const shoeProducts = [
   {
     category: "Hiking",
     description: "Waterproof hiking boots with rugged traction soles.",
-    image: "https://images.unsplash.com/photo-1549318916-f52df24d9bc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGlraW5nJTIwYm9vdHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&h=600&q=60",
+    image: "https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE4fHxzaG9lfGVufDB8fDB8fHww",
     price: "$129.99",
     rating: "4.8/5",
     title: "Trail Blazer XT"
@@ -34,7 +34,7 @@ const shoeProducts = [
   {
     category: "Dress",
     description: "Elegant leather oxfords with cushioned insoles.",
-    image: "https://images.unsplash.com/photo-1560769629-975ec94e6a86?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZHJlc3MlMjBzaG9lc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&h=600&q=60",
+    image: "https://images.unsplash.com/photo-1585147877975-6acd0a929a46?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTg4fHxzaG9lfGVufDB8fDB8fHww",
     price: "$99.99",
     rating: "4.3/5",
     title: "Executive Classic"
@@ -42,15 +42,15 @@ const shoeProducts = [
   {
     category: "Running",
     description: "Breathable mesh running shoes with energy-return technology.",
-    image: "https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cnVubmluZyUyMHNob2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&h=600&q=60",
+    image: "https://images.unsplash.com/photo-1715693754047-4c0b56576495?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMwfHxzaG9lfGVufDB8fDB8fHww",
     price: "$79.99",
     rating: "4.4/5",
     title: "Air Flow Lite"
   },
   {
-    category: "Sandals",
+    category: "Sports",
     description: "Comfortable sport sandals with adjustable straps.",
-    image: "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2FuZGFsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&h=600&q=60",
+    image: "https://images.unsplash.com/photo-1625875061556-7b794d9c4a4e?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTUyfHxzaG9lfGVufDB8fDB8fHww",
     price: "$39.99",
     rating: "4.1/5",
     title: "Summer Breeze"
@@ -58,7 +58,7 @@ const shoeProducts = [
   {
     category: "Skateboarding",
     description: "Durable suede shoes with reinforced stitching for skateboarding.",
-    image: "https://images.unsplash.com/photo-1595461135829-646afb5a6c82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c2thdGVib2FyZCUyMHNob2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&h=600&q=60",
+    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fHNuZWFrZXJzfGVufDB8fDB8fHww",
     price: "$69.99",
     rating: "4.6/5",
     title: "Skate Pro II"
@@ -66,7 +66,7 @@ const shoeProducts = [
   {
     category: "Trail Running",
     description: "Aggressive tread pattern for off-road running stability.",
-    image: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dHJhaWwlMjBydW5uaW5nJTIwc2hvZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&h=600&q=60",
+    image: "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fHNuZWFrZXJzfGVufDB8fDB8fHww",
     price: "$109.99",
     rating: "4.7/5",
     title: "Mountain Crusher"
@@ -74,7 +74,7 @@ const shoeProducts = [
   {
     category: "Minimalist",
     description: "Barefoot-style shoes with zero-drop soles.",
-    image: "https://images.unsplash.com/photo-1605348532760-6753d2c43329?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1pbmltYWxpc3QlMjBzaG9lc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&h=600&q=60",
+    image: "https://images.unsplash.com/photo-1508188239917-0fc5f653cb47?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTJ8fHNuZWFrZXJzfGVufDB8fDB8fHww",
     price: "$74.99",
     rating: "4.0/5",
     title: "Natural Stride"
@@ -82,7 +82,7 @@ const shoeProducts = [
   {
     category: "Work",
     description: "Steel-toe work boots with slip-resistant soles.",
-    image: "https://images.unsplash.com/photo-1560090995-01632a28895b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d29yayUyMGJvb3RzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&h=600&q=60",
+    image: "https://images.unsplash.com/photo-1570464197285-9949814674a7?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHNob2V8ZW58MHx8MHx8fDA%3D",
     price: "$139.99",
     rating: "4.5/5",
     title: "Tough Guard"
@@ -90,85 +90,118 @@ const shoeProducts = [
   {
     category: "Fashion",
     description: "Trendy platform sneakers with bold color accents.",
-    image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFzaGlvbiUyMHNob2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&h=600&q=60",
+    image: "https://images.unsplash.com/photo-1521774971864-62e842046145?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHNob2V8ZW58MHx8MHx8fDA%3D",
     price: "$59.99",
     rating: "3.9/5",
     title: "Street Style Pro"
-  },
-  {
-    category: "Running",
-    description: "Carbon fiber plate for competitive race performance.",
-    image: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dHJhaWwlMjBydW5uaW5nJTIwc2hvZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&h=600&q=60",
-    price: "$199.99",
-    rating: "4.9/5",
-    title: "Elite Racer V2"
-  },
+  }, {
+    category: "Snow Boots",
+    description: "Insulated winter boots with thermal lining.",
+    image: "https://images.unsplash.com/photo-1612724271076-24c0a3bade29?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTU0fHxzaG9lfGVufDB8fDB8fHww",
+    price: "$159.99",
+    rating: "4.7/5",
+    title: "Arctic Trekker"
+  }
+  ,
   {
     category: "Walking",
     description: "Orthopedic walking shoes with arch support.",
-    image: "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNob2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&h=600&q=60",
+    image: "https://images.unsplash.com/photo-1633364670185-4256547c2659?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDMwfHxzaG9lfGVufDB8fDB8fHww",
     price: "$89.99",
     rating: "4.6/5",
     title: "Comfort Stride"
   },
   {
-    category: "Golf",
-    description: "Spikeless golf shoes with waterproof membrane.",
-    image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z29sZiUyMHNob2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&h=600&q=60",
-    price: "$149.99",
-    rating: "4.4/5",
-    title: "Green Master"
-  },
-  {
-    category: "Cycling",
-    description: "Stiff-soled shoes for efficient power transfer.",
-    image: "https://images.unsplash.com/photo-1511994298241-608e28f14fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3ljbGluZyUyMHNob2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&h=600&q=60",
-    price: "$129.99",
-    rating: "4.3/5",
-    title: "Pedal Pro"
-  },
-  {
-    category: "Snow Boots",
-    description: "Insulated winter boots with thermal lining.",
-    image: "https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c25vdyUyMGJvb3RzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&h=600&q=60",
-    price: "$159.99",
-    rating: "4.7/5",
-    title: "Arctic Trekker"
+    category: "Running",
+    description: "Ultra-light shoes built for explosive sprints.",
+    image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNob2V8ZW58MHx8MHx8fDA%3D",
+    price: "$84.99",
+    rating: "4.6/5",
+    title: "Sprint Pulse"
   },
   {
     category: "Cross Training",
     description: "Versatile shoes for gym workouts and HIIT training.",
-    image: "https://images.unsplash.com/photo-1595461135829-646afb5a6c82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c2thdGVib2FyZCUyMHNob2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&h=600&q=60",
+    image: "https://images.unsplash.com/photo-1617606002806-94e279c22567?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fHNob2V8ZW58MHx8MHx8fDA%3D",
     price: "$94.99",
     rating: "4.5/5",
     title: "Flex Trainer"
   },
   {
-    category: "Slip-Ons",
-    description: "Easy-on shoes with memory foam insoles.",
-    image: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c25lYWtlcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&h=600&q=60",
+    category: "Lifestyle",
+    description: "Street-style canvas shoes for everyday wear.",
+    image: "https://images.unsplash.com/photo-1533680937690-d59ab2543468?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTl8fHNob2V8ZW58MHx8MHx8fDA%3D",
     price: "$54.99",
-    rating: "4.2/5",
-    title: "Quick Step"
+    rating: "4.1/5",
+    title: "Daily Drip"
   },
   {
-    category: "Track & Field",
-    description: "Lightweight spikes for competitive running.",
-    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRyYWNrJTIwc2hvZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&h=600&q=60",
-    price: "$89.99",
-    rating: "4.8/5",
-    title: "Speed Spike Pro"
-  }
+          category: "Basketball",
+        description: "Pro-level shoes offering bounce and grip on court.",
+    image: "https://images.unsplash.com/photo-1715773150368-55945728385a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM1fHxzaG9lfGVufDB8fDB8fHww",
+     price: "$129.00",
+        rating: "4.9/5",
+        title: "Court Dominator"
+  },
+  {
+        category: "Outdoor",
+        description: "Heavy-duty boots built for mountain terrain.",
+    image: "https://images.unsplash.com/photo-1616663308968-58162d332720?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTk5fHxzaG9lfGVufDB8fDB8fHww",
+     price: "$134.49",
+        rating: "4.8/5",
+        title: "Ridge Climber"
+  },
+  {
+         category: "Formal",
+        description: "Hand-crafted leather dress shoes for formal occasions.",
+    image: "https://images.unsplash.com/photo-1731132198530-e4b2dc51d511?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjM0fHxzaG9lfGVufDB8fDB8fHww",
+      price: "$109.99",
+        rating: "4.2/5",
+        title: "Gentleman's Pick"
+  },
+  {
+    category: "Cross Training",
+    description: "Versatile shoes for gym workouts and HIIT training.",
+    image: "https://images.unsplash.com/photo-1662037131232-06b594df2d51?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzE1fHxzaG9lfGVufDB8fDB8fHww",
+    price: "$94.99",
+    rating: "4.5/5",
+    title: "Flex Trainer"
+  },
+  {
+        category: "Performance Running",
+        description: "Mesh runners with reactive cushioning technology.",
+    image: "https://images.unsplash.com/photo-1715693754061-fa58592c2e7e?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDc0fHxzaG9lfGVufDB8fDB8fHww",
+        price: "$88.75",
+        rating: "4.3/5",
+        title: "AirMax Energy"
+  },
+  {
+         category: "Sandals",
+        description: "Quick-dry beach sandals with anti-slip sole.",
+    image: "https://images.unsplash.com/photo-1651013691313-81b822df0044?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjAzfHxzaG9lfGVufDB8fDB8fHww",
+        price: "$34.50",
+        rating: "4.0/5",
+        title: "Coastal Drift"
+  },
+
 ];
-const productContainer=document.getElementById("product-container");
-        const product=shoeProducts[8];
-productContainer.innerHTML = `
+console.log("Length: ", shoeProducts.length);
+const productContainer = document.getElementById("product-container");
+let products = "";
+shoeProducts.forEach((product) => {
+  products += `
             <div class="card">
                 <h2 class="title">${product.title}</h2>
-                <img src="${product.image}" class="product-image" alt="${product.title}" />
+                <img src="${product.image || 'https://via.placeholder.com/400x400?text=No+Image'}" class="product-image" alt="${product.title}" />
+                <br>
+                <button class="add-to-cart">Add to Cart</button>
                 <p class="description">${product.description}</p>
                 <p class="product-price"><strong>Price:</strong> ${product.price}</p>
                 <p class="category"><strong>Category:</strong> ${product.category}</p>
-                <p class="ratings"><strong>Rating:</strong> ${product.rating} ⭐ (${product.rating} reviews)</p>
+                <p class="ratings"><strong>Rating:</strong> ${product.rating} ⭐ reviews</p>
             </div>
         `;
+
+});
+productContainer.innerHTML = products;
+
