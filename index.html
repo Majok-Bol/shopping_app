@@ -19,18 +19,20 @@
             <a href="#">Cart</a>
 
         </nav>
-        <div class="input-wrapper">
-            <img src="./images/search.svg" alt="search icon" class="input-icon" />
-            <input type="text" placeholder="Search Products..." />
-        </div>
+
     </header>
     <section>
-          <div class="filters">
-    <input type="text" id="searchInput" placeholder="Search by title or category..." />
-    <select id="categoryFilter">
-      <option value="All">All Categories</option>
-    </select>
-  </div>
+        <div class="filters">
+            <div class="input-wrapper">
+                <img src="./images/search.svg" alt="search icon" class="input-icon" />
+                <input type="text" id="searchInput" placeholder="Search by title or category..." />
+            </div>
+
+            <span>Or Filter using dropdown</span>
+            <select id="categoryFilter">
+                <option value="All" selected>All</option>
+            </select>
+        </div>
     </section>
     <section class="products">
         <div id="product-container">

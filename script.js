@@ -74,7 +74,7 @@ const shoeProducts = [
   {
     category: "Minimalist",
     description: "Barefoot-style shoes with zero-drop soles.",
-    image: "https://images.unsplash.com/photo-1508188239917-0fc5f653cb47?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTJ8fHNuZWFrZXJzfGVufDB8fDB8fHww",
+    image: "https://images.unsplash.com/photo-1533680937690-d59ab2543468?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTl8fHNob2V8ZW58MHx8MHx8fDA%3D",
     price: "$74.99",
     rating: "4.0/5",
     title: "Natural Stride"
@@ -106,7 +106,7 @@ const shoeProducts = [
   {
     category: "Walking",
     description: "Orthopedic walking shoes with arch support.",
-    image: "https://images.unsplash.com/photo-1633364670185-4256547c2659?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDMwfHxzaG9lfGVufDB8fDB8fHww",
+    image: "https://images.unsplash.com/photo-1465453869711-7e174808ace9?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fHNob2V8ZW58MHx8MHx8fDA%3D",
     price: "$89.99",
     rating: "4.6/5",
     title: "Comfort Stride"
@@ -136,28 +136,28 @@ const shoeProducts = [
     title: "Daily Drip"
   },
   {
-          category: "Basketball",
-        description: "Pro-level shoes offering bounce and grip on court.",
+    category: "Basketball",
+    description: "Pro-level shoes offering bounce and grip on court.",
     image: "https://images.unsplash.com/photo-1715773150368-55945728385a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM1fHxzaG9lfGVufDB8fDB8fHww",
-     price: "$129.00",
-        rating: "4.9/5",
-        title: "Court Dominator"
+    price: "$129.00",
+    rating: "4.9/5",
+    title: "Court Dominator"
   },
   {
-        category: "Outdoor",
-        description: "Heavy-duty boots built for mountain terrain.",
+    category: "Outdoor",
+    description: "Heavy-duty boots built for mountain terrain.",
     image: "https://images.unsplash.com/photo-1616663308968-58162d332720?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTk5fHxzaG9lfGVufDB8fDB8fHww",
-     price: "$134.49",
-        rating: "4.8/5",
-        title: "Ridge Climber"
+    price: "$134.49",
+    rating: "4.8/5",
+    title: "Ridge Climber"
   },
   {
-         category: "Formal",
-        description: "Hand-crafted leather dress shoes for formal occasions.",
+    category: "Formal",
+    description: "Hand-crafted leather dress shoes for formal occasions.",
     image: "https://images.unsplash.com/photo-1731132198530-e4b2dc51d511?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjM0fHxzaG9lfGVufDB8fDB8fHww",
-      price: "$109.99",
-        rating: "4.2/5",
-        title: "Gentleman's Pick"
+    price: "$109.99",
+    rating: "4.2/5",
+    title: "Gentleman's Pick"
   },
   {
     category: "Cross Training",
@@ -168,44 +168,55 @@ const shoeProducts = [
     title: "Flex Trainer"
   },
   {
-        category: "Performance Running",
-        description: "Mesh runners with reactive cushioning technology.",
+    category: "Performance Running",
+    description: "Mesh runners with reactive cushioning technology.",
     image: "https://images.unsplash.com/photo-1715693754061-fa58592c2e7e?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDc0fHxzaG9lfGVufDB8fDB8fHww",
-        price: "$88.75",
-        rating: "4.3/5",
-        title: "AirMax Energy"
+    price: "$88.75",
+    rating: "4.3/5",
+    title: "AirMax Energy"
   },
   {
-         category: "Sandals",
-        description: "Quick-dry beach sandals with anti-slip sole.",
+    category: "Sandals",
+    description: "Quick-dry beach sandals with anti-slip sole.",
     image: "https://images.unsplash.com/photo-1651013691313-81b822df0044?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjAzfHxzaG9lfGVufDB8fDB8fHww",
-        price: "$34.50",
-        rating: "4.0/5",
-        title: "Coastal Drift"
+    price: "$34.50",
+    rating: "4.0/5",
+    title: "Coastal Drift"
   },
+  {
+    category: "Winter",
+    description: "Snow boots with thermal insulation and rugged outsole.",
+    image: "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHNob2V8ZW58MHx8MHx8fDA%3D",
+    price: "$159.99",
+    rating: "4.7/5",
+    title: "Polar Shield"
+  }
 
 ];
 console.log("Length: ", shoeProducts.length);
 const productContainer = document.getElementById("product-container");
-const searchInput=document.getElementById("searchInput");
-const categoryFilter=document.getElementById("categoryFilter");
-const categories=["All"];
-for(let i=0;i<shoeProducts.length;i++){
-  const category=shoeProducts[i].category;
-  if(!categories.includes(category)){
+const searchInput = document.getElementById("searchInput");
+const categoryFilter = document.getElementById("categoryFilter");
+//store all categories in an array
+const categories = [];
+for (let i = 0; i < shoeProducts.length; i++) {
+  const category = shoeProducts[i].category;
+  if (!categories.includes(category)) {
     categories.push(category);
   }
 }
-categories.forEach((cat)=>{
-  const option=document.createElement("option");
-  option.value=cat;
-  option.textContent=cat;
+//let each category be the value of option selection
+categories.forEach((cat) => {
+  const option = document.createElement("option");
+  option.value = cat;
+  option.textContent = cat;
   categoryFilter.appendChild(option);
-})
-
-let products = "";
-shoeProducts.forEach((product) => {
-  products += `
+});
+//render products
+function renderProducts(products) {
+  productContainer.innerHTML = "";
+  products.forEach((product) => {
+    productContainer.innerHTML += `
             <div class="card">
                 <h2 class="title">${product.title}</h2>
                 <img src="${product.image || 'https://via.placeholder.com/400x400?text=No+Image'}" class="product-image" alt="${product.title}" />
@@ -218,6 +229,49 @@ shoeProducts.forEach((product) => {
             </div>
         `;
 
-});
-productContainer.innerHTML = products;
+  });
 
+  
+};
+function filterProducts() {
+  const query = searchInput.value.toLowerCase();
+  const selectedCategory = categoryFilter.value;
+  // Disable dropdown when search has text
+  // enable if search is empty
+  if (query.length > 0) {
+    categoryFilter.disabled = true;
+    // reset to 'All' when searching
+    categoryFilter.value = 'All'; 
+  } else {
+    categoryFilter.disabled = false;
+  }
+  const filteredProduct = shoeProducts.filter((product) => {
+    const matchesSearch =
+      product.title.toLowerCase().includes(query) ||
+      product.category.toLowerCase().includes(query);
+
+    const matchesCategory =
+      selectedCategory === 'All' || product.category === selectedCategory;
+
+    // Only apply search if there's a query
+    if (query && selectedCategory !== 'All') {
+      return matchesSearch && matchesCategory;
+    } else if (query) {
+      return matchesSearch;
+    } else if (selectedCategory !== 'All') {
+      return matchesCategory;
+    } else {
+      // no filters applied
+      return true; 
+    }
+  });
+
+  renderProducts(filteredProduct);
+}
+
+//event listeners
+searchInput.addEventListener("input", filterProducts);
+categoryFilter.addEventListener("change", filterProducts);
+
+//initial render
+renderProducts(shoeProducts);
