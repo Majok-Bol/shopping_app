@@ -187,6 +187,22 @@ const shoeProducts = [
 ];
 console.log("Length: ", shoeProducts.length);
 const productContainer = document.getElementById("product-container");
+const searchInput=document.getElementById("searchInput");
+const categoryFilter=document.getElementById("categoryFilter");
+const categories=["All"];
+for(let i=0;i<shoeProducts.length;i++){
+  const category=shoeProducts[i].category;
+  if(!categories.includes(category)){
+    categories.push(category);
+  }
+}
+categories.forEach((cat)=>{
+  const option=document.createElement("option");
+  option.value=cat;
+  option.textContent=cat;
+  categoryFilter.appendChild(option);
+})
+
 let products = "";
 shoeProducts.forEach((product) => {
   products += `
